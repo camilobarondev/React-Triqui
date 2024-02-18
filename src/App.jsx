@@ -1,20 +1,23 @@
-export default function Sqyare() {
+function Square(){
+  return <button>1</button>
+}
+export default function Board() {
   return (
     <>
     <div>
-      <button>X</button>
-      <button>X</button>
-      <button>X</button>
+      <Square/>
+      <Square/>
+      <Square/>
     </div>
     <div>
-      <button>X</button>
-      <button>X</button>
-      <button>X</button>
+      <Square/>
+      <Square/>
+      <Square/>
     </div>
     <div>
-      <button>X</button>
-      <button>X</button>
-      <button>X</button>
+      <Square/>
+      <Square/>
+      <Square/>
     </div>
     </>)
 }
